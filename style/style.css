@@ -1,4 +1,7 @@
 
+*{
+    box-sizing: border-box;
+}
 header{
     padding: 10px;
     height: 100px;
@@ -99,7 +102,7 @@ header h1{
 }
 #short-info{
    
-    height: 400px;
+    height: 500px;
     margin: top-50px;
     padding: 20px;
 }
@@ -128,12 +131,18 @@ p{
     font-size: 20px;
     line-height: 30px;
     font-family: Arial, Helvetica, sans-serif;
+    margin 5px;
     /* i could not move "p" up  to down */
 }
 
 footer{
     height:200px;
+
     
+}
+footer h3{
+    text-align: center;
+    text-decoration: underline;
 }
 
 /*  Contact part*/
